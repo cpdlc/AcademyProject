@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+*{margin:0;padding:0;}
+body{font:15px "맑은 고딕";}
+
+header{
+	background: skyblue;
+	padding: 20px 0;
+	text-align: center;
+	color:white;
+}
+
+section{
+	border:1px solid pink;
+	width:500px;
+	margin:50px auto;
+	padding: 20px;
+	box-sizing: border-box;
+	
+}
+/* section - form 상세스타일 */
+section h2{
+	background:skyblue;
+	padding: 5px 10xp;
+	color:white; 
+	margin-bottom:30px;
+	font-size: 20px;
+}
+
+form{
+	padding:5px;
+	border:1px solid pink;
+	text-align: center;
+	line-height: 2;
+	}
+
+form th{
+	background: #ccc;
+	text-align:right;
+	padding: 5px;
+	width:200px;
+}
+
+
+form p{margin-bottom: 10px;}
+form p label{}
+form p input{
+	outline: none;
+	padding: 5px 10px;
+	border: 1px solid skyblue;
+	margin-left: 5px;
+	width:200px;
+	box-sizing: border-box;
+}
+form p:last-child input{
+	padding:5px 0px;
+	background: skyblue;
+	color:white;
+	font-weight: bold;
+	border-radius: 20px;
+	margin-top:30px;
+	transition:0.5s;
+	font-size:1.2em;
+	width:100px;
+}
+
+form p:last-child:hover input{
+	color:skyblue;
+	background: white;
+	
+}
+
+
+

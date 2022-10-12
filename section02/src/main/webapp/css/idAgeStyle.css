@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{margin:0; padding:0;}
+body{font:18px "맑은 고딕";}
+
+form{
+	width:500px;
+	position:fixed;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background: #eee;
+	border-radius:20px;
+	border:1px solid #ccc;
+	padding:50px 80px;
+	box-sizing:border-box;
+	line-height:2.5;
+	text-align:center;
+	}
+
+form p label{
+	width:20%;
+	display:inline-block;
+}
+form p input{
+	padding:5px 10px;
+	width:75%;
+	outline: none;
+	border:1px solid skyblue;
+	box-sizing: border-box;
+	}
+	
+input[type="submit"]{
+	padding:5px 50px;
+	background:skyblue;
+	border:none;
+	border-radius:20px;
+	font-size:1.1em;
+	margin-top:20px;
+}
